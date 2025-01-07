@@ -6,6 +6,8 @@ This project allows you to monitor the CPU usage of an AWS instance over time. B
 
 The goal of this project is to extract performance information for an AWS instance and display the CPU usage over time.
 
+![CPU Usage Monitor Screenshot](Example.png)
+
 ## Inputs
 
 Provide the following inputs through the client interface:
