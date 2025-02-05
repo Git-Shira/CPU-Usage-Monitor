@@ -30,11 +30,13 @@ function App() {
     '1d': 1440,
   };
 
+  const API_URL = import.meta.env.VITE_API_URL;
+
   const fetchData = async (e) => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:3000/cpu-usage", {
+      const response = await axios.post(`${API_URL}/cpu-usage`, {
         ipAddress,
         timePeriod,
         interval,
